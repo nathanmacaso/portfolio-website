@@ -10,6 +10,7 @@ gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
+gem 'font-mfizz-rails', '~> 1.1', '>= 1.1.2'
 gem "scrollreveal-rails"
 gem 'rails_12factor', group: :production
 gem "rename"

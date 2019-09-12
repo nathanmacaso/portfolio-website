@@ -30,6 +30,9 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/00b8692517.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,10 +59,13 @@
             <a class="page-scroll" href="#about">ABOUT</a>
           </li>
           <li>
-            <a class="page-scroll" href="#portfolio">PORTFOLIO</a>
+            <a class="page-scroll" href="#skills">SKILLS</a>
           </li>
           <li>
-            <a class="page-scroll" href="#contact">HIRE ME</a>
+            <a class="page-scroll" href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -73,7 +79,7 @@
       <div class="header-content-inner">
         <h1 id="homeHeading">Nathan Macaso</h1>
         <hr>
-        <p>Medical microbiologist turned web developer based in Chicago, IL. Specializing in web app design, databases, and full stack web development.</p>
+        <p>Medical microbiologist turned web developer based in Chicago, IL. Specializing in web design and front end web development.</p>
         <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
       </div>
     </div>
@@ -85,14 +91,18 @@
           <div class="col-lg-8 col-lg-offset-2 text-center">
             <h2 class="section-heading">ABOUT ME</h2>
             <hr class="light">
-            <p class="text-faded">After nine years as a microbiologist, I've discovered my new passion for computer programming. I am a recent grad of Actualize's immersive web development program at Chicago's techology hub 1871. Utilizing my previous experience in the laboratory, I've applied my knowledge of the scientific method to understand programming concepts to create software solutions.  Contact me if you’d like to work together on your next project.</p>
+            <p class="text-faded">
+              After nine years as a medical microbiologist, I've discovered my passion for web development.  I am a gradute of Actualize's immersive Web Development Program. 
+              The past couple of years, I've been a part of some really great teams at Bank of America and Earlybird Software building out innovative projects.  Although I 
+              started my journey as a Full Stack Developer, I think I've really found my niche on the front end.  I take real pride in my work with a heavy focus on clean 
+              design aesthetic, great user experience, and seamless functionality.  Contact me if you’d like to work together on your next project.</p>
             <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Contact me!</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section id="skills">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -102,77 +112,96 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" style="padding-bottom: 50px; padding-top: 50px;">
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x icon-ruby-on-rails-alt text-primary sr-icons"></i>
-              <h3>Ruby on Rails</h3>
-              <p class="text-muted">Experience with agile development and paired programming.  Knowledgeable with Git, TDD using RSpec, and PostgresSQL databases. </p>
-            </div>
+            <i class="fab fa-5x fa-js-square text-primary sr-icons"></i>
+            <p class="sr-icons">Javascript (ES6)</p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x icon-javascript-alt text-primary sr-icons"></i>
-              <h3>Javascript</h3>
-              <p class="text-muted">Skilled in vanilla Javascript as well as the JQuery library and AngularJS framework to make websites more interactive.</p>
-            </div>
+            <i class="fab fa-5x fa-html5 text-primary sr-icons"></i>
+            <p class="sr-icons">HTML5</p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-html5 text-primary sr-icons"></i>
-              <h3>HTML</h3>
-              <p class="text-muted">Proficient in coding HTML and integrating Bootstrap frameworks for developing responsive, mobile first projects on the web.</p>
-            </div>
+            <i class="fab fa-5x fa-css3-alt text-primary sr-icons"></i>
+            <p class="sr-icons">CSS3</p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-css3 text-primary sr-icons"></i>
-              <h3>CSS</h3>
-              <p class="text-muted">Adept in writing CSS and SCSS to transform a bland website to an aesthetically pleasing experience.</p>
-            </div>
+            <i class="fab fa-5x fa-wordpress text-primary sr-icons"></i>
+            <p class="sr-icons">Wordpress</p>
           </div>
         </div>
+
+        <div class="row" style="padding-bottom: 50px">
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-react text-primary sr-icons"></i>
+            <p class="sr-icons">React</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-angular text-primary sr-icons"></i>
+            <p class="sr-icons">AngularJS</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-bootstrap text-primary sr-icons"></i>
+            <p class="sr-icons">Bootstrap</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-sass text-primary sr-icons"></i>
+            <p class="sr-icons">Sass</p>
+          </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 50px">
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fa fa-5x icon-ruby-on-rails-alt text-primary sr-icons"></i>
+            <p class="sr-icons">Ruby on Rails</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-python text-primary sr-icons"></i>
+            <p class="sr-icons">Python</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-git-alt text-primary sr-icons"></i>
+            <p class="sr-icons">Git</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <i class="fab fa-5x fa-npm text-primary sr-icons"></i>
+            <p class="sr-icons">NPM</p>
+          </div>
+        </div>
+        
       </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-      <div class="container-fluid">
-        <div class="row no-gutter popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a href="<%= asset_path('sous-chef.gif') %>" class="portfolio-box">
-              <%= image_tag("sous-chef.gif", class: "img-responsive", alt: "Sous-Chef") %>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Sous-Chef
-                  </div>
-                </div>
+    <section class="bg-primary" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">PROJECTS</h2>
+            <hr class="light">
+            <div class="row" style="padding-bottom: 30px">
+              <div class="col-md-12 text-center">
+                <a href="http://datscrumptious.com">
+                  <%= image_tag("sous-chef.png", class: "img-responsive", alt: "Sous-Chef") %>
+                  <p style="color: white; padding-top: 10px">Sous Chef</p>
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a href="<%= asset_path('sneaker-seeker.gif') %>" class="portfolio-box">
-              <%= image_tag("sneaker-seeker.gif", class: "img-responsive", alt: "Sous-Chef") %>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Sneaker Seeker
-                  </div>
-                </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px">
+              <div class="col-md-12 text-center">
+                <a href="https://givenly.com">
+                  <%= image_tag("givenly.png", class: "img-responsive", alt: "Givenly") %>
+                  <p style="color: white; padding-top: 10px">Givenly</p>
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a href="<%= asset_path('in-progress.jpg') %>" class="portfolio-box">
-              <%= image_tag("in-progress.jpg", class: "img-responsive", alt: "Sous-Chef") %>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Trisomy Families (In Progress)
-                  </div>
-                </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px">
+              <div class="col-md-12 text-center">
+                <a href="https://tracegenomics.com">
+                  <%= image_tag("trace.png", class: "img-responsive", alt: "Trace Genomics") %>
+                  <p style="color: white; padding-top: 10px">Trace Genomics</p>
+                </a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -181,26 +210,26 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
+          <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-bottom: 20px">
             <h2 class="section-heading">CONTACT INFO</h2>
             <hr class="primary">
             <p>Ready to start your next project? Awesome!! Give me a call or shoot me an email and I will get back to you as soon as possible.</p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <i class="fa fa-phone fa-3x sr-contact"></i>
-            <p>312-852-4472</p>
+            <i class="fas fa-phone fa-3x sr-contact"></i>
+            <p style="padding-top: 20px" class="sr-contact">312-852-4472</p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-            <p><a href="mailto:nathanmacaso@gmail.com">nathanmacaso@gmail.com</a></p>
+            <i class="far fa-envelope fa-3x sr-contact"></i>
+            <p style="padding-top: 20px" class="sr-contact"><a href="mailto:nathanmacaso@gmail.com">nathanmacaso@gmail.com</a></p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <i class="fa fa-linkedin-square fa-3x sr-contact"></i>
-            <p><a href="https://www.linkedin.com/in/nathan-macaso">LinkedIn</a></p>
+            <i class="fab fa-linkedin fa-3x sr-contact"></i>
+            <p style="padding-top: 20px" class="sr-contact"><a href="https://www.linkedin.com/in/nathan-macaso">LinkedIn</a></p>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <i class="fa fa fa-github fa-3x sr-contact"></i>
-            <p><a href="https://github.com/nachomacaso">GitHub</a></p>
+            <i class="fab fa-github fa-3x sr-contact"></i>
+            <p style="padding-top: 20px" class="sr-contact"><a href="https://github.com/nachomacaso">GitHub</a></p>
           </div>
         </div>
       </div>
